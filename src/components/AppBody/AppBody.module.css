@@ -1,0 +1,13 @@
+.container {
+  height: calc(100vh - 96px);
+  background: linear-gradient(
+    110deg,
+    #552586 0%, 
+    #552586, 
+    #6A359C 25%, 
+    #6A359C, 
+    #804FB3 50%, 
+    #6A359C, 
+    #6A359C 75%
+  );
+}

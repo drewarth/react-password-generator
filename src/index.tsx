@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import AppBody from './components/AppBody';
+import AppHeader from './components/AppHeader';
+
+import './global.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('password-generator') as HTMLElement
@@ -8,7 +11,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <App />
+    <AppHeader />
+    <AppBody />
   </React.StrictMode>
 );
-

@@ -1,0 +1,19 @@
+.container {
+  min-height: 96px;
+  border-bottom: 2px solid #2B1344;
+  background: linear-gradient(180deg, #3A195A 0%, #3A195A, #2B1344 100%);
+  box-shadow: 0px -10px 40px 40px #2B1344;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  color: #E79A52;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
