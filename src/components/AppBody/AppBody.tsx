@@ -8,4 +8,3 @@ const AppBody = function(): JSX.Element {
 };
   
 export default AppBody;
-  

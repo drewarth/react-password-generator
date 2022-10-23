@@ -9,4 +9,3 @@ const AppHeader = function(): JSX.Element {
 };
   
 export default AppHeader;
-  
